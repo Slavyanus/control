@@ -23,5 +23,5 @@ foreach (var value in array)
         realSize++;
     }
 }
-
+Console.WriteLine(string.Join(Environment.NewLine, result, 0, realSize));
  
